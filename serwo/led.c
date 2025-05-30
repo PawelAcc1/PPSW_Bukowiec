@@ -68,4 +68,4 @@ void LedStepLeft(void){
 void LedStepRight(void){
 	enum TwoDirections eShiftRight = RIGHT;
 	LedStep(eShiftRight);
-}
+} // kasztan chujj
