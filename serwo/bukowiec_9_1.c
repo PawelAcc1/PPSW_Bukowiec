@@ -1,7 +1,7 @@
 #include <LPC21xx.H>
 #include "led.h"
 #include "timer_interrupts.h"
-
+//zmiana
 #define DETECTOR_INPUT_SET_bm (1<<10)
 #define DETECTOR_bm (1<<10)
 

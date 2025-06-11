@@ -8,4 +8,4 @@ int main(){
 	while(1){
 		uiLoopCounter++;
 	}
-}
+} //zmiana
