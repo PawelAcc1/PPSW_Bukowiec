@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\uartrecieveroninterrupts.o"
+".\servo.o"
+".\led.o"
+".\keyboard.o"
+".\timer_interrupts.o"
+".\bukowiec_10.4.o"
+--strict --scatter ".\uart.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\uart.map" -o .\uart.axf
